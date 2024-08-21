@@ -1,0 +1,26 @@
+@media (max-width: 575.98px) {  
+    .img-conts {
+      border-color: transparent;
+      border-style: solid;
+      border-radius: 5px;
+    }
+  }
+
+@media (min-width: 576px) {
+    .card {
+        width: 48%;
+        height: 15rem;
+        --bs-gutter-x: 0;
+    }
+    .img-conts {
+        height: 15rem;
+        border-bottom: 5px;
+        border-color: transparent;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    .cards-img {
+        height: 100%;
+    }
+
+}

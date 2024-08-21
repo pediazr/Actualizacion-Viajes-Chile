@@ -1,0 +1,38 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css";
+
+/* Personalización del modal */
+.modal-content {
+  background-color: $color-white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+.modal-body {
+  color: $color-dark;
+}
+.modal-title {
+  color: $color-blue;
+}
+
+.modal-footer {
+  border-top: none;
+  .btn-primary {
+    background-color: $color-blue;
+    border-color: $color-blue;
+    &:hover {
+      background-color: darken($color-blue, 10%);
+      border-color: darken($color-blue, 10%);
+    }
+  }
+  .btn-secondary {
+    background-color:$color-gray;
+    border-color: $color-gray;
+    &:hover {
+      background-color: darken($color-gray, 10%);
+      border-color: darken($color-gray, 10%);
+    }
+  }
+}

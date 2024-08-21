@@ -1,0 +1,73 @@
+body {
+    background-color: #181818;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .section-head {
+    color: $color-white;
+  }
+  
+.quienes {
+    color: $color-white;
+  }
+  
+  .quienes-img {
+    border: 10px;
+    border-radius: 3%;
+    border-color: transparent;
+  }
+  
+  .destacados h2 {
+    color: $color-white;
+  }
+  
+  .precio {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cards-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+  }
+
+  .card-text{
+    font-size: 14px;
+  }
+  
+  .testimonios .row {
+    justify-content: space-around;
+  }
+  .testimonios .card {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .testimonios .card-text {
+    color: $color-lightGold;
+    text-align: center;
+  }
+  .testimonios .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-round {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  
+  .redes {
+    color: $color-white;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .form-check-label {
+    text-decoration: underline;
+  }
+  
